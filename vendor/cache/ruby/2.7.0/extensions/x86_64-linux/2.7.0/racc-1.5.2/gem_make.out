@@ -1,0 +1,16 @@
+current directory: /home/ngocson/RubymineProjects/sample_app/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+/home/ngocson/.rbenv/versions/2.7.2/bin/ruby -I /home/ngocson/.rbenv/versions/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210122-30231-1o5aax6.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/ngocson/RubymineProjects/sample_app/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/ngocson/RubymineProjects/sample_app/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/ngocson/RubymineProjects/sample_app/vendor/cache/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20210122-30231-w8de46/racc

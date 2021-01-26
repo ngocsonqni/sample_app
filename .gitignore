@@ -9,6 +9,8 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+.framgia-ci-reports/
+.framgia-ci-result.temp.yml
 
 # Used by dotenv library to load environment variables.
 # .env
