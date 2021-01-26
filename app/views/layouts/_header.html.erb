@@ -7,9 +7,9 @@ navbar-inverse">
         <li><%= link_to "sample app", "#", id: "logo" %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "Home", "home" %></li>
-        <li><%= link_to "Help", "help" %></li>
-        <li><%= link_to "Log in", "#" %></li>
+        <li><%= link_to (t("static_page.home_nav")), static_page_home_path %></li>
+        <li><%= link_to (t("static_page.help_nav")), static_page_help_url %></li>
+        <li><%= link_to (t("static_page.login_nav")), "#" %></li>
       </ul>
     </nav>
   </div>

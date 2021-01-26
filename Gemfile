@@ -3,7 +3,7 @@ gem "bootstrap-sass", "3.4.1"
 git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "2.7.2"
-
+gem "bcrypt", "~>3.1.11"
 gem "jbuilder", "~> 2.7"
 gem "mysql2", ">= 0.4.4"
 gem "puma", "~> 4.1"

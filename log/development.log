@@ -3276,3 +3276,2914 @@ Processing by StaticPageController#help as HTML
 Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5870)
 
 
+Started GET "/" for 127.0.0.1 at 2021-01-26 10:44:40 +0700
+  [1m[35m (15.7ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ngocson/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ngocson/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.1ms | Allocations: 294)
+Completed 200 OK in 15ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 1749)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 10:44:44 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 20.6ms | Allocations: 2593)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 232)
+Completed 200 OK in 129ms (Views: 125.3ms | ActiveRecord: 0.0ms | Allocations: 19517)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:44:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 45ms (Views: 41.6ms | ActiveRecord: 0.0ms | Allocations: 5808)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:44:50 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 50)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 26ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 6444)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:44:51 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 5804)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:44:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 5800)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:44:54 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5803)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:44:57 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 5795)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:15 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 2.9ms | Allocations: 981)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 7248)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 10:45:20 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 5801)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 5792)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 5808)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 5798)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5798)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 5787)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5794)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 5796)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5790)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 5802)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5801)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5806)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 5875)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5804)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 5788)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:29 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 5800)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 5809)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5791)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5798)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:31 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5804)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:31 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5792)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:32 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 5806)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:32 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5790)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:45:33 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5795)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:45:33 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 5793)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:47:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5805)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:47:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5800)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:47:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5838)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:47:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5825)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:47:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5799)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 10:47:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 5884)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 10:48:19 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5784)
+
+
+Started GET "/static_page/help" for 127.0.0.1 at 2021-01-26 10:48:22 +0700
+Processing by StaticPageController#help as HTML
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 138)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6044)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 10:48:28 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5775)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 10:48:34 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5883)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 10:48:35 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 45)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5811)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 10:53:13 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 982)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7221)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:00:28 +0700
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 4.3ms | Allocations: 2502)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 220)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 9631)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:00:54 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1296)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 220)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8280)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:00:56 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1147)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6887)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:00:56 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1147)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6891)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:01:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 183)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 0.0ms | Allocations: 6559)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:01:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 2.2ms | Allocations: 1549)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 220)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 8609)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:03:02 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 332)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 220)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7408)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:03:03 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 180)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 5933)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:03:04 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 180)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 5925)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:03:08 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 331)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 220)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7397)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:03:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 5926)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:04:09 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1409)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7374)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:04:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 253)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 220)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7262)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:05:07 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 5856)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:02 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1210)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 220)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 8632)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:03 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 111)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6490)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:04 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 5940)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:06 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 5873)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:13 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5862)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:15 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 5865)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:16 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5858)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:17 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5851)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:17 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 5854)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:18 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 5863)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5860)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 5855)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 5873)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 5870)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 5870)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5858)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:08:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 107)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5938)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:08:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5872)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:10:40 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 2462)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 8710)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:10:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1457)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7206)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:10:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 7215)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:10:46 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7207)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:10:47 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 7210)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:10:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 7286)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:10:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 7207)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:10:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 1456)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 7213)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:11:09 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1228)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 220)
+Completed 200 OK in 24ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 8644)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:11:11 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 6493)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:11:12 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.0ms | Allocations: 5863)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:11:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1210)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 220)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 8538)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:11:53 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 66)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6551)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:11:53 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5925)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:11:55 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 100)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5851)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:13:33 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1167)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 7489)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:13:34 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 103)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 5850)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:13:35 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 100)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5853)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:13:36 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 101)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 5850)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:07 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 270)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 220)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 7277)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:14:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 257)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 220)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 7263)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 6576)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:14:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 117)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 5942)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5875)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:35 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1114)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7362)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:14:37 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 119)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5938)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:38 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 118)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5864)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:14:40 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 117)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5871)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:14:41 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 118)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 5873)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1367)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 220)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 8777)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6514)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:29 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 5880)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 5901)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 14ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 5890)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:32 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5967)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:32 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 5892)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:34 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5885)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:34 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 5890)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:35 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 5889)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:40 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 5878)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:41 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5962)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:44 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5893)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:44 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 5909)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 5959)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:46 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5888)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:47 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5885)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 5889)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:51 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 5889)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 5951)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:54 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5890)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:55 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 5886)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:16:58 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 5887)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:16:59 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 66)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5886)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:17:01 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 5960)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:20:48 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1268)
+  Rendered layouts/_header.html.erb (Duration: 0.1ms | Allocations: 66)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7598)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:03 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 275)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 273)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 7414)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:18 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 270)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 7322)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:22:19 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 136)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 108)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 6002)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:22:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5926)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 5917)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:22:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5944)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5923)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:22:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5928)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:22:27 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5925)
+
+
+Started GET "/static_page/help" for 127.0.0.1 at 2021-01-26 11:22:30 +0700
+Processing by StaticPageController#help as HTML
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6154)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:22:33 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 11ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 5928)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:22:34 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6003)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:22:35 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:22:36 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:22:37 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5921)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:23:10 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 6000)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:23:38 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 5926)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:23:39 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 5938)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:23:41 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5933)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:23:41 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 5928)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:23:43 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 5937)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:23:50 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:23:55 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.2ms | Allocations: 108)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5995)
+
+
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:25:15 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 276)
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 0.0ms | Allocations: 139915)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `title' for #<#<Class:0x00007f87d0894c48>:0x00007f87d08931e0>):
+    1: <!DOCTYPE html>
+    2: <html>
+    3: <head>
+    4:   <title><%= full_title yield:title %></title>
+    5:   <%= csrf_meta_tags %>
+    6:   <%= stylesheet_link_tag "application", media: "all",
+    7:                           "data-turbolinks-track": "reload" %>
+  
+app/views/layouts/application.html.erb:4
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 11:25:20 +0700
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 277)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 269)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7487)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:25:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 108)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.0ms | Allocations: 6566)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:27:09 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 270)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 309)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 7354)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:27:10 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 152)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 6581)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:27:13 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 152)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 5978)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:27:16 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 152)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5955)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:27:17 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 152)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 5969)
+
+
+Started GET "/static_page/help" for 127.0.0.1 at 2021-01-26 11:28:09 +0700
+Processing by StaticPageController#help as HTML
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 355)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7254)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:28:12 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 274)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 205)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 6428)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:28:14 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5901)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:28:15 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6020)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:28:16 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 5906)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:29:33 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 145)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 355)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7268)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:42:34 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 5.8ms | Allocations: 3548)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 358)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 11112)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:42:43 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.7ms | Allocations: 2439)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 355)
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 9553)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:42:46 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.6ms | Allocations: 2276)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 8166)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:42:47 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 185)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 6695)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:42:48 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.0ms | Allocations: 2276)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 8147)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:43:09 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1286)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 208)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 7665)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:11 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 185)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6054)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:43:13 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6050)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:14 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 6067)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:17 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6147)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:18 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6060)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:43:18 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6056)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:19 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6069)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:43:21 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6066)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:43:22 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6052)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:42 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.9ms | Allocations: 1296)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 208)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 7674)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:43 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.3ms | Allocations: 183)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 200)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 6060)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:44:44 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 185)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6066)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:44 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 183)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6052)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:44:46 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 181)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6050)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:47 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 183)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 6076)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:57 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.4ms | Allocations: 311)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 355)
+Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.0ms | Allocations: 7485)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:44:58 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6678)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:58 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6130)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:44:59 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 274)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 205)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6300)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:01 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 200)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 6007)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:45:02 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 134)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6127)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:02 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6010)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:03 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6039)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:06 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6047)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:07 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6044)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:08 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6039)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:09 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 6035)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:10 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6037)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:10 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6031)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:12 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 6042)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:12 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:13 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6045)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:14 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:45:15 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6063)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:45:18 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6042)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:17 +0700
+  [1m[35m (16.6ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.7ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 30ms (Views: 26.3ms | ActiveRecord: 0.0ms | Allocations: 6039)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:59:19 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6047)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:20 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6039)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:59:21 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6031)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:21 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.9ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6041)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 6017)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:23 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6035)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6016)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:24 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6033)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6014)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:25 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.2ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 6153)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6126)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6019)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 11:59:27 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 132)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6017)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:28 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6100)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:33 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6034)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:34 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 11:59:36 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 160)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 6037)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 11:59:37 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 162)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6045)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:20:12 +0700
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 133)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 6010)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:37 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 11.5ms | Allocations: 1569)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 358)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms | Allocations: 9162)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:40 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 149)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6688)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:42 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6149)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:43 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:43 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6057)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:44 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 6042)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:45 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6044)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:46 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:46 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6038)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:47 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 6035)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:47 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 6044)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:48 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6041)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:55 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 6153)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:55 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 6034)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:56 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6149)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:57 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6049)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:57 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 6030)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:58 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6136)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:25:59 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6050)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:25:59 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6038)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:00 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6043)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:05 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6026)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:08 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6049)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:15 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6040)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:16 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6041)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:17 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6040)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:17 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6031)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:19 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6119)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:19 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6139)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:20 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6046)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6118)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:21 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6035)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:22 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6085)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:23 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6086)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6045)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6031)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 6038)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:26 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6041)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 12:26:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6036)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:30 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6045)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:32 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.1ms | Allocations: 334)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 205)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6371)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 12:26:33 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 179)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 6183)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:35 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 6174)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 12:26:35 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6174)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 12:26:36 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6081)
+
+
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (23.9ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (20.3ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('5809984351714921875', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210126060513)
+  [1m[35m (18.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (1.6ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210126060513')[0m
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-01-26 06:09:41.103292', '2021-01-26 06:09:41.103292')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5809984351714921875')[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:45 +0700
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1659)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 399)
+Completed 200 OK in 91ms (Views: 83.5ms | ActiveRecord: 0.0ms | Allocations: 19343)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:46 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 184)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 6731)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:46 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 178)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6069)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:47 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 176)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6074)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:47 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 178)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6070)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:48 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 6056)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:49 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6082)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:50 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6074)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:50 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6072)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:51 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 6072)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:51 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6064)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:52 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:52 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:53 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6080)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:53 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6060)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:53 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.3ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 6056)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:54 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6058)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:54 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 6194)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:55 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.5ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6080)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:55 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.3ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 6062)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:56 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.8ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:56 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6074)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:57 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.6ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6064)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:11:57 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6058)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:11:58 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.7ms | Allocations: 177)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 6074)
+
+
+  [1m[35m (1.1ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Michael Hartl', 'mhartl@example.com', '2021-01-26 06:18:26.233877', '2021-01-26 06:18:26.233877')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.9ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Michael Hartl', 'mhartl@example.com', '2021-01-26 06:24:16.689309', '2021-01-26 06:24:16.689309')[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (1.3ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = 'The Dude', `users`.`email` = 'dude@abides.org', `users`.`updated_at` = '2021-01-26 06:24:36.349469' WHERE `users`.`id` = 2[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.9ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (18.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.0ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT GET_LOCK('5298940562774962950', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210126063757)
+  [1m[35m (17.6ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210126063757')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-01-26 06:38:12.484777', '2021-01-26 06:38:12.484777')[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5298940562774962950')[0m
+  [1m[35m (0.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Michael Hartl', 'mhartl@example.com', '2021-01-26 06:39:12.971911', '2021-01-26 06:39:12.971911')[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE `users` SET `users`.`name` = 'The Dude', `users`.`email` = 'dude@abides.org', `users`.`updated_at` = '2021-01-26 06:39:21.720835' WHERE `users`.`id` = 1[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/static_page/home" for 127.0.0.1 at 2021-01-26 13:54:44 +0700
+  [1m[35m (5.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPageController#home as HTML
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 17.6ms | Allocations: 1619)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 397)
+Completed 200 OK in 113ms (Views: 101.8ms | ActiveRecord: 0.0ms | Allocations: 19306)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-26 13:54:47 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.7ms | Allocations: 365)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 205)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6408)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-26 13:54:48 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 149)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6044)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 13:54:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 153)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6674)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:54:51 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 179)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6182)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 13:54:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 147)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 6028)
+
+
+Started GET "/static_page/help?locale=en" for 127.0.0.1 at 2021-01-26 13:54:52 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 0.4ms | Allocations: 175)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 6068)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-26 13:54:53 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.4ms | Allocations: 200)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6046)
+
+
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (2.8ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('', 'mhartl@example.com', '2021-01-26 06:57:00.713573', '2021-01-26 06:57:00.713573')[0m
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5298940562774962950', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5298940562774962950')[0m
+  [1m[35m (0.7ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (19.6ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (16.9ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.7ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('5298940562774962950', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateUsers (20210126063757)
+  [1m[35m (15.2ms)[0m  [1m[35mCREATE TABLE `users` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `email` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210126063757')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2021-01-26 07:01:41.900323', '2021-01-26 07:01:41.900323')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('5298940562774962950')[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('Michael Hartl', 'mhartl@example.com', '2021-01-26 07:07:02.098368', '2021-01-26 07:07:02.098368')[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (41.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` LIMIT 11[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (5.6ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`) VALUES ('dasda', 'mhartl@example.com', '2021-01-26 07:15:48.202027', '2021-01-26 07:15:48.202027')[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (7.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('5298940562774962950', 0)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddPasswordDigestToUsers (20210126073921)
+  [1m[35m (98.2ms)[0m  [1m[35mALTER TABLE `users` ADD `password_digest` varchar(255)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210126073921')[0m
+  [1m[35m (4.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('5298940562774962950')[0m
+  [1m[35m (0.5ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('Michael Hartl', 'foo@bar.com', '2021-01-26 07:55:01.632070', '2021-01-26 07:55:01.632070', '$2a$12$/kXiDpYggPWNJttWa1gSfeiY1ls6567s847qTx63W54ZUJglIcEly')[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('Michael Hartl', 'foo@bar.com', '2021-01-26 07:55:55.420288', '2021-01-26 07:55:55.420288', '$2a$12$KXMymN1qH7OhOyDCsLnF8.f/LerwL4WJSgCzd13ZfpYWLl1kg2hx6')[0m
+  [1m[35m (11.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('Michael Hartl', 'foo@bar.com', '2021-01-26 07:56:58.905105', '2021-01-26 07:56:58.905105', '$2a$12$V1xK/godel3ztZYb3Pkgd.b7/12qe4RGaxxwG/cEdDx19dd.JO0va')[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO `users` (`name`, `email`, `created_at`, `updated_at`, `password_digest`) VALUES ('Michael Hartl', 'foo@bar.com', '2021-01-26 07:58:53.722377', '2021-01-26 07:58:53.722377', '$2a$12$Cs3q4vaUzHCwayFKTT0VdOPcQmNUbrCcsH6z6iEEBE0gzPxbLs79u')[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
