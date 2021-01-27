@@ -2,5 +2,5 @@
 <div class="center jumbotron">
   <h1><%= t(".welcome") %></h1>
   <h2><%= t(".introduce_home_page_sample_app", href: link_to(t(".home_page_sample_app_link"), "http://www.railstutorial.org/")).html_safe %></h2>
-  <%= link_to (t(".sign_up")), '#', class: "btn btn-lg btn-primary" %>
+  <%= link_to (t(".sign_up")), "/signup", class: "btn btn-lg btn-primary" %>
 </div>

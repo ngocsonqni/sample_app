@@ -1,18 +1,17 @@
 en:
   title_base: "Ruby on Rails Tutorial Sample App"
+  create_success: "welcome to the Sample app!"
 
   static_page:
     home_nav: "Home"
     help_nav: "Help"
     login_nav: "Log in"
-
     home:
       welcome: "Welcome to the Sample App"
       introduce_home_page_sample_app: "This is the home page for the %{href} sample application."
       home_page_sample_app_link: "Ruby on Rails Tutorial"
       sign_up: "Sign up now!"
       title: "Home"
-
     help:
       help: "Help"
       instroduce_help: "Get help on the Ruby on Rails Tutorial at the  %{href}."
@@ -20,3 +19,16 @@ en:
       instroduce_tutorial: "To get help on this sample app, see the %{href}."
       tutorial_link: "Ruby on Rails Tutorial book"
       title: "Help"
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"
+  shared:
+    error:
+      show_count_error: "The Form Contains %{count} error."
+
+

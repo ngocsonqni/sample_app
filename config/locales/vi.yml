@@ -1,5 +1,6 @@
 vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
+  create_success: "Tạo tài khoản thành công, chào mừng bạn đến với Sample app!"
 
   static_page:
     home_nav: "Trang chủ"
@@ -20,3 +21,15 @@ vi:
       instroduce_tutorial: "Để nhận trợ giúp về sample app, xem tại %{href}."
       tutorial_link: "Sách Ruby on Rails Tutorial"
       title: "Trợ giúp"
+
+  users:
+    new:
+      sign_up: "Đăng ký"
+      name: "Tên đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản"
+  shared:
+    error:
+      show_count_error: "Biểu mẫu đăng ký chứa %{count} lỗi."
