@@ -44,3 +44,4 @@ en:
       password: "Password"
       signup_link_new_user: "New User? %{href}!"
       signup_link: "Sign Up Now"
+      remember_me: "Remember me on this computer"

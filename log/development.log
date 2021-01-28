@@ -17569,3 +17569,1741 @@ Processing by SessionsController#new as HTML
 Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.3ms | Allocations: 8664)
 
 
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('5298940562774962950', 0)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to AddRememberDigestToUsers (20210128024836)
+  [1m[35m (84.6ms)[0m  [1m[35mALTER TABLE `users` ADD `remember_digest` varchar(255)[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (1.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20210128024836')[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('5298940562774962950')[0m
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:01:40 +0700
+  [1m[35m (0.8ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 3.9ms | Allocations: 4176)
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 1159)
+Completed 200 OK in 324ms (Views: 319.2ms | ActiveRecord: 0.0ms | Allocations: 89273)
+
+
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 10:01:42 +0700
+  
+SyntaxError (/home/ngocson/RubymineProjects/sample_app/app/controllers/sessions_controller.rb:21: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/sessions_controller.rb:21: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/sessions_controller.rb:21: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/sessions_controller.rb:21: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 10:02:22 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.9ms | Allocations: 1768)
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 800)
+Completed 200 OK in 19ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 9063)
+
+
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 10:04:28 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 7.7ms | Allocations: 4315)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 800)
+Completed 200 OK in 23ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 11179)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:04:29 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 666)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 402)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms | Allocations: 6805)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:04:31 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 670)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.0ms | Allocations: 7437)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:04:33 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 665)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6788)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:05 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 1017)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 693)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 8557)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:10 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1003)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 692)
+Completed 200 OK in 32ms (Views: 28.0ms | ActiveRecord: 0.0ms | Allocations: 8646)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:11 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 685)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 400)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 6824)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:05:12 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 684)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7442)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:13 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6801)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:05:18 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 6930)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:19 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6916)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:05:24 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 6807)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:05:30 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 400)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 6802)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:05:31 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 6805)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:05:33 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6810)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:06:35 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 692)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 798)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 7531)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:06:38 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6921)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:06:39 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 400)
+Completed 200 OK in 12ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 6913)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:07:30 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 1.3ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 6810)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:07:31 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:07:38 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 6809)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:07:39 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:07:40 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 6809)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:07:49 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 6812)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:07:50 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6807)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:07:55 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 400)
+Completed 200 OK in 16ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 6835)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:08 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 6930)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:09 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 6930)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:09 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 6909)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:10 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:11 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:11 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6797)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:12 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 1.4ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:13 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6801)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:14 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 6808)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:15 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6803)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:15 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.0ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:16 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:18 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6908)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:19 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 6915)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:20 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 6813)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:21 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.1ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6805)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:22 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 6816)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:22 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.0ms | Allocations: 6809)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:24 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms | Allocations: 6804)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:25 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 400)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6801)
+
+
+Started GET "/sessions/new?locale=en" for 127.0.0.1 at 2021-01-28 10:08:26 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 6928)
+
+
+Started GET "/sessions/new?locale=vi" for 127.0.0.1 at 2021-01-28 10:08:27 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6920)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:29:39 +0700
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 294)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 813)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 7579)
+
+
+Started GET "/signup" for 127.0.0.1 at 2021-01-28 10:29:40 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 186)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1707)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 409)
+Completed 200 OK in 25ms (Views: 12.1ms | ActiveRecord: 1.9ms | Allocations: 13637)
+
+
+Started POST "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:29:41 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"DUiB0qaxFNLP35HOBLDztojRcK8HKIvUzjVdwijtL8Rbgl1hX6JpkZSYR1aNC1dlgh2VWsNrrWrm71kWfwRSfQ==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Tạo tài khoản", "locale"=>"vi"}
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in User model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /home/ngocson/RubymineProjects/sample_app/app/controllers/users_controller.rb:12)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY '' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.9ms | Allocations: 674)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1591)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 413)
+Completed 200 OK in 24ms (Views: 9.9ms | ActiveRecord: 2.3ms | Allocations: 13348)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:30:56 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1006)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 399)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 7532)
+
+
+Started POST "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:34:49 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"3ALkSSDlj8K4OWpoSvmb/8f48ywa4v7T9SfDyThGoX+KyDj62fbygeN+vPDDQj8szTQW2d6h2G3d/ccdb6/cxg==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create my account", "locale"=>"en"}
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in User model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /home/ngocson/RubymineProjects/sample_app/app/controllers/users_controller.rb:12)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY '' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 819)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 2215)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 691)
+Completed 200 OK in 21ms (Views: 14.0ms | ActiveRecord: 0.6ms | Allocations: 14466)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:35:47 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1089)
+  Rendered layouts/_header.html.erb (Duration: 1.7ms | Allocations: 796)
+Completed 200 OK in 24ms (Views: 13.5ms | ActiveRecord: 1.5ms | Allocations: 12925)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:35:48 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.3ms | Allocations: 292)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 426)
+Completed 200 OK in 13ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 7023)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:35:49 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 149)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 412)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6680)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:35:58 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1005)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 410)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 7710)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:36:04 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 287ms (ActiveRecord: 0.4ms | Allocations: 1995)
+
+
+  
+NoMethodError (undefined method `remember' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:10:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:36:57 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 296ms (ActiveRecord: 1.5ms | Allocations: 6310)
+
+
+  
+NoMethodError (undefined method `remember' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:39:11 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 1.2ms | Allocations: 6395)
+
+
+  
+NoMethodError (undefined method `remembers' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:41:32 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 301ms (ActiveRecord: 1.9ms | Allocations: 6411)
+
+
+  
+NoMethodError (undefined method `remember' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:42:29 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 294ms (ActiveRecord: 0.6ms | Allocations: 1781)
+
+
+  
+NoMethodError (undefined method `remember' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:42:32 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"a9jIrhnKr8ybM5s+tuwOHyeIl1EKtWmF91BsJh98GtNBTjvkblz4ssLYp6iHBV4BdgZUS+WwMzc/JedCIonmfQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 1.6ms | Allocations: 812)
+Completed 200 OK in 301ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 8182)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:42:36 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"glr4Yp0QdDxUg6I9LMAUXGtznzEUBZwmMOnoNjeveMKozAso6oYjQg1onqsdKURCOv1cK/sAxpT4nGNSClqEbA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 295ms (ActiveRecord: 0.5ms | Allocations: 1829)
+
+
+  
+NoMethodError (undefined method `forget' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:40:in `forget'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:42:41 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"glr4Yp0QdDxUg6I9LMAUXGtznzEUBZwmMOnoNjeveMKozAso6oYjQg1onqsdKURCOv1cK/sAxpT4nGNSClqEbA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Completed 500 Internal Server Error in 290ms (ActiveRecord: 0.6ms | Allocations: 1793)
+
+
+  
+NoMethodError (undefined method `remember' for nil:NilClass):
+  
+app/helpers/sessions_helper.rb:21:in `remember'
+app/controllers/sessions_controller.rb:9:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:46:05 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"glr4Yp0QdDxUg6I9LMAUXGtznzEUBZwmMOnoNjeveMKozAso6oYjQg1onqsdKURCOv1cK/sAxpT4nGNSClqEbA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[36mUser Update (1.8ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = '$2a$12$2AQZy/C/HrgcGUK61NS8S.gj4jxNTLM6GMx9y6sxiYGOg66fOvmNa', `users`.`updated_at` = '2021-01-28 03:46:06.380579' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:11:in `remember'
+Redirected to http://0.0.0.0:3000/en/users/64
+Completed 302 Found in 597ms (ActiveRecord: 6.5ms | Allocations: 8450)
+
+
+Started GET "/en/users/64" for 127.0.0.1 at 2021-01-28 10:46:06 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"64"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 173)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1575)
+Completed 200 OK in 14ms (Views: 10.8ms | ActiveRecord: 0.7ms | Allocations: 8640)
+
+
+Started GET "/sessions/create?locale=vi" for 127.0.0.1 at 2021-01-28 10:50:46 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1093)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:51:21 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 691)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 1137)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.3ms | Allocations: 7834)
+
+
+Started GET "/logout?locale=en" for 127.0.0.1 at 2021-01-28 10:51:24 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[36mUser Update (1.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = NULL, `users`.`updated_at` = '2021-01-28 03:51:24.630885' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[35m (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:40:in `forget'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=en
+Completed 302 Found in 13ms (ActiveRecord: 5.6ms | Allocations: 3318)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:51:24 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 426)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 6457)
+
+
+Started GET "/signup" for 127.0.0.1 at 2021-01-28 10:51:25 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 921)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 401)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 7052)
+
+
+Started POST "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:51:27 +0700
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"me1bpO68wr4Do8e3DdBkY8aPrAHq+GLyb5kvZgajarjPJ4cXF6+//VjkES+Ea8CwzENJ9C67RExHQyuyUUoXAQ==", "user"=>{"name"=>"", "email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Tạo tài khoản", "locale"=>"vi"}
+DEPRECATION WARNING: Uniqueness validator will no longer enforce case sensitive comparison in Rails 6.1. To continue case sensitive comparison on the :email attribute in User model, pass `case_sensitive: true` option explicitly to the uniqueness validator. (called from create at /home/ngocson/RubymineProjects/sample_app/app/controllers/users_controller.rb:12)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY '' LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:12:in `create'
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 1.1ms | Allocations: 660)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1567)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 413)
+Completed 200 OK in 24ms (Views: 12.2ms | ActiveRecord: 0.8ms | Allocations: 12553)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:51:28 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 7.8ms | Allocations: 895)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 399)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 7144)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:51:29 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 895)
+  Rendered layouts/_header.html.erb (Duration: 0.5ms | Allocations: 399)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 7030)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:51:29 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 895)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 399)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 7038)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:51:30 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 895)
+  Rendered layouts/_header.html.erb (Duration: 1.0ms | Allocations: 399)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 7146)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:51:31 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 895)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 399)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 7029)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:51:32 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 401)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6806)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:51:33 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9lGAl1qVBLJOeUzlWpxLsPQVxQOqsG6rl2drNVOgXUbcx3PdLQNTzBeScHNrdRuupZsGGUW1NBlfEuBRblWh6A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.8ms | Allocations: 679)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 416)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.3ms | Allocations: 7454)
+
+
+Started GET "/sessions/create?locale=en" for 127.0.0.1 at 2021-01-28 10:51:34 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1084)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:52:53 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"9lGAl1qVBLJOeUzlWpxLsPQVxQOqsG6rl2drNVOgXUbcx3PdLQNTzBeScHNrdRuupZsGGUW1NBlfEuBRblWh6A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 1.2ms | Allocations: 831)
+Completed 200 OK in 19ms (Views: 13.3ms | ActiveRecord: 0.8ms | Allocations: 9493)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:52:55 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 422)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6819)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:52:56 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"qgk7IDR4DIEkOxEGuLSm0dBo5WH8JKFJDlwA+iVJ6Y6An8hqQ+5b/33QLZCJXfbPgeYmexMh+/vGKYueGLwVIA==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 679)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 402)
+Completed 200 OK in 14ms (Views: 11.0ms | ActiveRecord: 0.4ms | Allocations: 7442)
+
+
+Started GET "/en/sessions" for 127.0.0.1 at 2021-01-28 10:52:57 +0700
+  
+ActionController::RoutingError (No route matches [GET] "/en/sessions"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:53:47 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"qgk7IDR4DIEkOxEGuLSm0dBo5WH8JKFJDlwA+iVJ6Y6An8hqQ+5b/33QLZCJXfbPgeYmexMh+/vGKYueGLwVIA==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 1.1ms | Allocations: 844)
+Completed 200 OK in 15ms (Views: 8.9ms | ActiveRecord: 0.9ms | Allocations: 9490)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:53:51 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"FJgF8HiFvNM/xbHIGZbp/jcIuWV43I1GX33TEgMram8+Dva6DxPrrWYujV4of7ngZoZ6f5fZ1/SXCFh2Pt6WwQ==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 679)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 402)
+Completed 200 OK in 15ms (Views: 9.7ms | ActiveRecord: 0.6ms | Allocations: 7568)
+
+
+Started GET "/sessions/create?locale=en" for 127.0.0.1 at 2021-01-28 10:53:52 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1089)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started GET "/sessions/create?locale=en" for 127.0.0.1 at 2021-01-28 10:54:09 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1933)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:54:12 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"m/JOyO2e2oZV6NQaHr3Q4qb0Il7DuEABP5qXi8UFgtmxZL2CmgiN+AwD6IwvVID893rhRCy9GrP37xzv+PB+dw==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.3ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 844)
+Completed 200 OK in 14ms (Views: 10.0ms | ActiveRecord: 0.7ms | Allocations: 8665)
+
+
+Started GET "/sessions/create?locale=vi" for 127.0.0.1 at 2021-01-28 10:54:13 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"vi"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1080)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:56:55 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.2ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 401)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 6923)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:56:59 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"6uaXbZl0sT6pKKfdLRR0IvoR5d7wStaaB2qRjrdxH1/AcGQn7uLmQPDDm0sc/SQ8q58mxB9PjCjPHxrqioTj8Q==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+Redirected to http://0.0.0.0:3000/en/users/64
+Completed 302 Found in 296ms (ActiveRecord: 1.0ms | Allocations: 4527)
+
+
+Started GET "/en/users/64" for 127.0.0.1 at 2021-01-28 10:56:59 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"64"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 46)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1169)
+Completed 200 OK in 14ms (Views: 11.6ms | ActiveRecord: 0.7ms | Allocations: 7826)
+
+
+Started GET "/logout?locale=en" for 127.0.0.1 at 2021-01-28 10:57:02 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=en
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms | Allocations: 1025)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:57:02 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 148)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 426)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 6459)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:57:03 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 6805)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 10:57:09 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"KMTzWyW0wO2Os3IrrIyxfM+aRW2uAOjFvXMQOIAzo40CUgARUiKXk9dYTr2dZeFinhSGd0EFsnd1BptcvcZfIw==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[36mUser Update (0.7ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = '$2a$12$uQerUx37oJV82V52yvuMf.wBonTszIVHZ.zBl6ReXl8dPZDthyxPa', `users`.`updated_at` = '2021-01-28 03:57:09.945519' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:11:in `remember'
+Redirected to http://0.0.0.0:3000/en/users/64
+Completed 302 Found in 577ms (ActiveRecord: 3.4ms | Allocations: 3631)
+
+
+Started GET "/en/users/64" for 127.0.0.1 at 2021-01-28 10:57:09 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"64"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 1155)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.6ms | Allocations: 7526)
+
+
+Started GET "/vi/users/64" for 127.0.0.1 at 2021-01-28 10:57:54 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"vi", "id"=>"64"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 44)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1155)
+Completed 200 OK in 18ms (Views: 14.9ms | ActiveRecord: 0.6ms | Allocations: 7640)
+
+
+Started GET "/static_page/help?locale=vi" for 127.0.0.1 at 2021-01-28 10:57:55 +0700
+Processing by StaticPageController#help as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/help.html.erb within layouts/application
+  Rendered static_page/help.html.erb within layouts/application (Duration: 1.3ms | Allocations: 370)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 1152)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.3ms | Allocations: 7409)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:57:57 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 148)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1139)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.3ms | Allocations: 7034)
+
+
+Started GET "/signup" for 127.0.0.1 at 2021-01-28 10:57:58 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 927)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.7ms | Allocations: 1137)
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.4ms | Allocations: 7834)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:57:59 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 894)
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.3ms | Allocations: 1126)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.5ms | Allocations: 7801)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:58:00 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 895)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 1127)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.3ms | Allocations: 7789)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:58:01 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 894)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 1126)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.3ms | Allocations: 7781)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:58:02 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.6ms | Allocations: 895)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 1127)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.3ms | Allocations: 7779)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:58:04 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 148)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1139)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.3ms | Allocations: 7042)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:58:05 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 147)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 1139)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.3ms | Allocations: 7127)
+
+
+Started GET "/signup" for 127.0.0.1 at 2021-01-28 10:58:12 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 895)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.8ms | Allocations: 1127)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.4ms | Allocations: 7787)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:58:18 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 148)
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 1139)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.6ms | Allocations: 7139)
+
+
+Started GET "/signup" for 127.0.0.1 at 2021-01-28 10:58:21 +0700
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.4ms | Allocations: 895)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 1127)
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.4ms | Allocations: 7794)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:29 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 336)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.1ms | Allocations: 1421)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.3ms | Allocations: 8623)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:30 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.5ms | Allocations: 178)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1550)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 1137)
+Completed 200 OK in 16ms (Views: 14.4ms | ActiveRecord: 0.3ms | Allocations: 9021)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:32 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 196)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1139)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms | Allocations: 7094)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:59:33 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 190)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 1129)
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.3ms | Allocations: 7703)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:59:34 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1008)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1126)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.3ms | Allocations: 8409)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 10:59:40 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 190)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 1129)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.3ms | Allocations: 7072)
+
+
+Started GET "/signup?locale=en" for 127.0.0.1 at 2021-01-28 10:59:41 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 894)
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 1126)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 1.1ms | Allocations: 7893)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:43 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.1ms | Allocations: 895)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 1127)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.3ms | Allocations: 7787)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:44 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 191)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 1129)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 7073)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:45 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 895)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 1127)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.4ms | Allocations: 7791)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 10:59:47 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.0ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 895)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.5ms | Allocations: 1127)
+Completed 200 OK in 13ms (Views: 11.3ms | ActiveRecord: 0.3ms | Allocations: 7787)
+
+
+Started GET "/logout?locale=vi" for 127.0.0.1 at 2021-01-28 11:05:57 +0700
+  [1m[35m (1.2ms)[0m  [1m[35mSET NAMES utf8mb4,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"vi"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[36mUser Update (0.9ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = NULL, `users`.`updated_at` = '2021-01-28 04:05:57.168063' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:40:in `forget'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=vi
+Completed 302 Found in 18ms (ActiveRecord: 4.8ms | Allocations: 7928)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 11:05:57 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 197)
+  Rendered layouts/_header.html.erb (Duration: 1.5ms | Allocations: 831)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 7022)
+
+
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:05:58 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1009)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 410)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 7712)
+
+
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:05:59 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"hOxCzsG4dZIO0xKCUcUX3PEa3IPB8hcDJqLybyUculKuerGEti4i7Fc4LhRgLEfCoJQfmS73TbHu13kLGOlG/A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:6:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.9ms | Allocations: 678)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 416)
+Completed 200 OK in 16ms (Views: 10.7ms | ActiveRecord: 0.5ms | Allocations: 7577)
+
+
+Started GET "/sessions/create?locale=en" for 127.0.0.1 at 2021-01-28 11:06:00 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"locale"=>"en"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1080)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/sessions_controller.rb:6:in `create'
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:08:32 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"hOxCzsG4dZIO0xKCUcUX3PEa3IPB8hcDJqLybyUculKuerGEti4i7Fc4LhRgLEfCoJQfmS73TbHu13kLGOlG/A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.6ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 844)
+Completed 200 OK in 17ms (Views: 10.4ms | ActiveRecord: 1.4ms | Allocations: 9489)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 11:08:34 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 197)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 412)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 6556)
+
+
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:08:35 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.8ms | Allocations: 682)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 401)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 6818)
+
+
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:08:38 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"EsHOxwEn0uGVVHRqUVs4LYuqfl7AeR5qWybRL/5Im1g4Vz2NdrGFn8y/SPxgsmgz2iS9RC98RNiTU1pLw71n9g==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 678)
+  Rendered layouts/_header.html.erb (Duration: 0.8ms | Allocations: 402)
+Completed 200 OK in 16ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 7461)
+
+
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:08:42 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"hZeiiQ4MjuHdEMT9prBw0IhLZfTRcZ6K+eOyrRFhzZ6vAVHDeZrZn4T7+GuXWSDO2cWm7j50xDgxljnJLJQxMA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Completed 500 Internal Server Error in 485ms (ActiveRecord: 1.3ms | Allocations: 99888)
+
+
+  
+NameError (undefined local variable or method `user' for #<SessionsController:0x00007f40e0f1d790>
+Did you mean?  super):
+  
+app/controllers/sessions_controller.rb:17:in `check_remember'
+app/controllers/sessions_controller.rb:8:in `create'
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:15 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"hZeiiQ4MjuHdEMT9prBw0IhLZfTRcZ6K+eOyrRFhzZ6vAVHDeZrZn4T7+GuXWSDO2cWm7j50xDgxljnJLJQxMA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 688)
+  Rendered layouts/_header.html.erb (Duration: 2.0ms | Allocations: 844)
+Completed 200 OK in 308ms (Views: 10.6ms | ActiveRecord: 1.2ms | Allocations: 12805)
+
+
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:19 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Nd8S0uM7XQ4ddVrhl7HjL72nxNmIeZ2uIvxSDkSQc4MfSeGYlK0KcESeZnemWLMx7CkHw2d8xxzqidlqeWWPLQ==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+Redirected to http://0.0.0.0:3000/vi/users/64
+Completed 302 Found in 297ms (ActiveRecord: 0.6ms | Allocations: 1264)
+
+
+Started GET "/vi/users/64" for 127.0.0.1 at 2021-01-28 11:11:20 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"vi", "id"=>"64"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 162)
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 1169)
+Completed 200 OK in 16ms (Views: 13.3ms | ActiveRecord: 0.7ms | Allocations: 8056)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 197)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 1138)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.3ms | Allocations: 7343)
+
+
+Started GET "/logout?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:25 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"vi"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=vi
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms | Allocations: 1025)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 191)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 404)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 6317)
+
+
+Started GET "/signup?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:26 +0700
+Processing by UsersController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_error_messages.html.erb (Duration: 0.1ms | Allocations: 15)
+  Rendered users/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 921)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 401)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 7065)
+
+
+Started GET "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:28 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 690)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 410)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 6821)
+
+
+Started POST "/login?locale=vi" for 127.0.0.1 at 2021-01-28 11:11:30 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"Lr9fcX1fXnGv6GI33DI1qw6u4vL4tWAEMw8zYjy3PxwEKaw7CskJD/YDXqHt22W1XyAh6BewOrb7ergGAULDsg==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Đăng nhập", "locale"=>"vi"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:5:in `create'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 678)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 402)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 7442)
+
+
+Started GET "/static_page/home?locale=vi" for 127.0.0.1 at 2021-01-28 11:15:52 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"vi"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 197)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 831)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 7078)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 11:15:54 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 402)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 6324)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:15:55 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 692)
+  Rendered layouts/_header.html.erb (Duration: 0.7ms | Allocations: 410)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 7372)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:15:56 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kSYtB5LqSSiozYC4iWhsHsX9GtimZh1Tc2LSByVC8lW7sN5N5XweVvEmvC64gTwAlHPZwkljR+G7F1ljGLcO+w==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:4:in `load_user'
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 1.0ms | Allocations: 97846)
+
+
+  
+NameError (undefined local variable or method `user' for #<SessionsController:0x00007f40e0b44420>
+Did you mean?  super):
+  
+app/controllers/sessions_controller.rb:8:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:16:24 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kSYtB5LqSSiozYC4iWhsHsX9GtimZh1Tc2LSByVC8lW7sN5N5XweVvEmvC64gTwAlHPZwkljR+G7F1ljGLcO+w==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+Completed 500 Internal Server Error in 132ms (ActiveRecord: 0.0ms | Allocations: 95992)
+
+
+  
+NameError (undefined local variable or method `user' for #<SessionsController:0x0000558357ca0988>
+Did you mean?  super):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:10 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"kSYtB5LqSSiozYC4iWhsHsX9GtimZh1Tc2LSByVC8lW7sN5N5XweVvEmvC64gTwAlHPZwkljR+G7F1ljGLcO+w==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+Completed 500 Internal Server Error in 165ms (ActiveRecord: 0.0ms | Allocations: 95984)
+
+
+  
+NameError (undefined local variable or method `user' for #<SessionsController:0x00007f40e0b2edc8>
+Did you mean?  super):
+  
+app/controllers/sessions_controller.rb:7:in `create'
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:18 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.2ms | Allocations: 692)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 829)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 7571)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:19 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"8DrR7brRRJj2g2zzpkhzYKEW5ckYcnTpYMyRvslWkorarCKnzUcT5q9oUGWXoSN+8Jgm0/d3LluouRra9KNuJA==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:4:in `load_user'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 679)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 416)
+Completed 200 OK in 20ms (Views: 14.2ms | ActiveRecord: 0.8ms | Allocations: 8740)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:20 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"IvEiv3PtxdoGco2Kb6r3z3pSgSINhMtRCWKZHfx1x0YIZ9H1BHuSpF+ZsRxeQ6fRK9xCOOKBkePBFxJ5wYA76A==", "session"=>{"email"=>"", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = '' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:4:in `load_user'
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 679)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 402)
+Completed 200 OK in 12ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 7449)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:23 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"4T3pyiVDylyyNl28AYobT66Dyem67zR6XOc7D5yOFj7LqxqAUtWdIuvdYSowY0tR/w0K81XqbsiUkrBroXvqkA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"1"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:4:in `load_user'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[36mUser Update (0.5ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = '$2a$12$qO6lyCokYUairdVBsSMgeOOe.Rxx24qsowjs7fdO0UlFwkcRqCGqW', `users`.`updated_at` = '2021-01-28 04:17:23.778971' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:11:in `remember'
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:11:in `remember'
+Redirected to http://0.0.0.0:3000/en/users/64
+Completed 302 Found in 585ms (ActiveRecord: 4.3ms | Allocations: 6988)
+
+
+Started GET "/en/users/64" for 127.0.0.1 at 2021-01-28 11:17:23 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"64"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 46)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 1170)
+Completed 200 OK in 19ms (Views: 11.6ms | ActiveRecord: 1.2ms | Allocations: 8061)
+
+
+Started GET "/logout?locale=en" for 127.0.0.1 at 2021-01-28 11:17:25 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[36mUser Update (0.6ms)[0m  [1m[33mUPDATE `users` SET `users`.`remember_digest` = NULL, `users`.`updated_at` = '2021-01-28 04:17:25.896400' WHERE `users`.`id` = 64[0m
+  ↳ app/models/user.rb:40:in `forget'
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/user.rb:40:in `forget'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=en
+Completed 302 Found in 9ms (ActiveRecord: 4.1ms | Allocations: 3314)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 11:17:25 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 196)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 412)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 6495)
+
+
+Started GET "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:26 +0700
+Processing by SessionsController#new as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 2.0ms | Allocations: 683)
+  Rendered layouts/_header.html.erb (Duration: 0.6ms | Allocations: 400)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 6809)
+
+
+Started POST "/login?locale=en" for 127.0.0.1 at 2021-01-28 11:17:29 +0700
+Processing by SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"wMcNRKpZAvNuLEtx6f/e3yu862UjPmoNGgjVgwi7K5rqUf4O3c9VjTfHd+fYFo7BejIof8w7ML/SfV7nNU7XNA==", "session"=>{"email"=>"sonnn.qni@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in", "locale"=>"en"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'sonnn.qni@gmail.com' LIMIT 1[0m
+  ↳ app/controllers/sessions_controller.rb:4:in `load_user'
+Redirected to http://0.0.0.0:3000/en/users/64
+Completed 302 Found in 302ms (ActiveRecord: 0.4ms | Allocations: 1136)
+
+
+Started GET "/en/users/64" for 127.0.0.1 at 2021-01-28 11:17:29 +0700
+Processing by UsersController#show as HTML
+  Parameters: {"locale"=>"en", "id"=>"64"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/controllers/users_controller.rb:3:in `show'
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 0.1ms | Allocations: 44)
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+  Rendered layouts/_header.html.erb (Duration: 2.6ms | Allocations: 1154)
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 0.7ms | Allocations: 7513)
+
+
+Started GET "/logout?locale=en" for 127.0.0.1 at 2021-01-28 11:17:31 +0700
+Processing by SessionsController#destroy as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT `users`.* FROM `users` WHERE `users`.`id` = 64 LIMIT 1[0m
+  ↳ app/helpers/sessions_helper.rb:29:in `current_user'
+Redirected to http://0.0.0.0:3000/static_page/home?locale=en
+Completed 302 Found in 4ms (ActiveRecord: 0.7ms | Allocations: 1030)
+
+
+Started GET "/static_page/home?locale=en" for 127.0.0.1 at 2021-01-28 11:17:31 +0700
+Processing by StaticPageController#home as HTML
+  Parameters: {"locale"=>"en"}
+  Rendering static_page/home.html.erb within layouts/application
+  Rendered static_page/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 190)
+  Rendered layouts/_header.html.erb (Duration: 0.9ms | Allocations: 402)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 6423)
+
+

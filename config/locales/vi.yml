@@ -47,3 +47,4 @@ vi:
       password: "Mật khẩu"
       signup_link_new_user: "Chưa có tài khoản? %{href}!"
       signup_link: "Đăng ký ngay"
+      remember_me: "Ghi nhớ tài khoản trên thiết bị này"
