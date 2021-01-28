@@ -1,12 +1,18 @@
 vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
   create_success: "Tạo tài khoản thành công, chào mừng bạn đến với Sample app!"
+  invalid_email_password: "Thông tin đăng nhập không chính xác"
 
+  layouts:
+    header:
+      home_nav: "Trang chủ"
+      help_nav: "Trợ giúp"
+      login_nav: "Đăng Nhập"
+      profile: "Tài khoản"
+      setting: "Cài đặt"
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
   static_page:
-    home_nav: "Trang chủ"
-    help_nav: "Trợ giúp"
-    login_nav: "Đăng Nhập"
-
     home:
       welcome: "Chào mừng đến với Sample App"
       introduce_home_page_sample_app: "Đây là trang chủ của ứng dụng mẫu %{href}"
@@ -33,3 +39,11 @@ vi:
   shared:
     error:
       show_count_error: "Biểu mẫu đăng ký chứa %{count} lỗi."
+
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      signup_link_new_user: "Chưa có tài khoản? %{href}!"
+      signup_link: "Đăng ký ngay"
