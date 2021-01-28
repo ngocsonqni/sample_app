@@ -1,11 +1,17 @@
 en:
   title_base: "Ruby on Rails Tutorial Sample App"
   create_success: "welcome to the Sample app!"
-
+  invalid_email_password: "invalid email password combination"
+  layouts:
+    header:
+      home_nav: "Home"
+      help_nav: "Help"
+      login_nav: "Log in"
+      profile: "Profile"
+      setting: "Setting"
+      log_in: "Log in"
+      log_out: "Log out"
   static_page:
-    home_nav: "Home"
-    help_nav: "Help"
-    login_nav: "Log in"
     home:
       welcome: "Welcome to the Sample App"
       introduce_home_page_sample_app: "This is the home page for the %{href} sample application."
@@ -31,4 +37,10 @@ en:
     error:
       show_count_error: "The Form Contains %{count} error."
 
-
+  sessions:
+    new:
+      log_in: "Log in"
+      email: "Email"
+      password: "Password"
+      signup_link_new_user: "New User? %{href}!"
+      signup_link: "Sign Up Now"

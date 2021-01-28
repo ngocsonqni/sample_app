@@ -25,6 +25,7 @@
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/public/system" />
       <excludeFolder url="file://$MODULE_DIR$/components" />
+      <excludeFolder url="file://$MODULE_DIR$/.framgia-ci-reports" />
     </content>
     <orderEntry type="jdk" jdkName="rbenv: 2.7.2" jdkType="RUBY_SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -60,6 +61,7 @@
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.8.7, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jaro_winkler (v1.5.4, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.10.1, rbenv: 2.7.2) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v4.3.1, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="listen (v3.4.1, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="loofah (v2.9.0, rbenv: 2.7.2) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="mail (v2.7.1, rbenv: 2.7.2) [gem]" level="application" />
