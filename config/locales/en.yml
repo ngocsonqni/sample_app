@@ -1,5 +1,7 @@
 en:
   title_base: "Ruby on Rails Tutorial Sample App"
+  welcome_to_the_sample_app: "Welcome to the sample app!"
+  user_not_found: "User not found!"
   layouts:
     header:
       english: "English"
@@ -21,3 +23,14 @@ en:
       instroduce_tutorial: "To get help on this sample app, see the %{href}."
       tutorial_link: "Ruby on Rails Tutorial book"
       help: "Help"
+  shared:
+    error_messages:
+      count_error: "The Form Contains %{count} errors."
+  users:
+    new:
+      sign_up: "Sign up"
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      create_my_account: "Create my account"

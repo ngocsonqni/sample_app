@@ -1,5 +1,7 @@
 vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
+  welcome_to_the_sample_app: "Chào mừng bạn đến với sample app!"
+  user_not_found: "Không tìm thấu user này!"
   layouts:
     header:
       english: "Tiếng Anh"
@@ -21,4 +23,15 @@ vi:
       help_page: " Trang hỗ trợ Rails Tutorial"
       instroduce_tutorial: "Để nhận trợ giúp về sample app, xem tại %{href}."
       tutorial_link: "Sách Ruby on Rails Tutorial"
-      help: "Trợ giúp"
+  shared:
+    error_messages:
+      count_error: "Biểu mẫu này đang có %{count} lỗi."
+  users:
+    new:
+      sign_up: "Đăng ký"
+      name: "Tên đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      create_my_account: "Tạo tài khoản"
+
