@@ -2,6 +2,7 @@ en:
   title_base: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app: "Welcome to the sample app!"
   user_not_found: "User not found!"
+  invalid_email_password: "invalid email password combination"
   layouts:
     header:
       english: "English"
@@ -9,6 +10,10 @@ en:
       home_nav: "Home"
       help_nav: "Help"
       login_nav: "Log in"
+      profile: "Profile"
+      setting: "Setting"
+      log_in: "Log in"
+      log_out: "Log out"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
@@ -34,3 +39,11 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       create_my_account: "Create my account"
+  sessions:
+    new:
+      log_in: "Log in"
+      email: "Email"
+      password: "Password"
+      signup_link_new_user: "New User? %{href}!"
+      signup_link: "Sign Up Now"
+      remember_me: "Remember me on this computer"

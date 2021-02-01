@@ -2,6 +2,7 @@ vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
   welcome_to_the_sample_app: "Chào mừng bạn đến với sample app!"
   user_not_found: "Không tìm thấu user này!"
+  invalid_email_password: "Thông tin đăng nhập không chính xác"
   layouts:
     header:
       english: "Tiếng Anh"
@@ -9,6 +10,10 @@ vi:
       home_nav: "Trang chủ"
       help_nav: "Trợ giúp"
       login_nav: "Đăng nhập"
+      profile: "Tài khoản"
+      setting: "Cài đặt"
+      log_in: "Đăng nhập"
+      log_out: "Đăng xuất"
   static_pages:
     home:
       welcome: "Chào mừng đến với Sample App"
@@ -34,4 +39,11 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       create_my_account: "Tạo tài khoản"
-
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      signup_link_new_user: "Chưa có tài khoản? %{href}!"
+      signup_link: "Đăng ký ngay"
+      remember_me: "Ghi nhớ tài khoản trên thiết bị này"
