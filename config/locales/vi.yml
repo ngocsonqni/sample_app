@@ -1,7 +1,8 @@
 vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
   welcome_to_the_sample_app: "Chào mừng bạn đến với sample app!"
-  user_not_found: "Không tìm thấu user này!"
+  user_not_found: "Không tìm thấy user này!"
+  email_not_found: "Không tìm thấy email này!"
   invalid_email_password: "Thông tin đăng nhập không chính xác"
   layouts:
     header:

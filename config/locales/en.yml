@@ -2,6 +2,7 @@ en:
   title_base: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app: "Welcome to the sample app!"
   user_not_found: "User not found!"
+  email_not_found: "Email not found!"
   invalid_email_password: "invalid email password combination"
   layouts:
     header:
