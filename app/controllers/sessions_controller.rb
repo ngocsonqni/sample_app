@@ -5,9 +5,7 @@ class SessionsController < ApplicationController
 
   def create
     if @user.try(:authenticate, params[:session][:password])
-      log_in @user
-      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
-      redirect_back_or @user
+      check_activated_email
     else
       flash.now[:danger] = t "invalid_email_password"
       render :new
@@ -27,5 +25,16 @@ class SessionsController < ApplicationController
 
     flash[:danger] = t "email_not_found"
     redirect_to login_path
+  end
+
+  def check_activated_email
+    if @user.activated
+      log_in @user
+      params[:session][:remember_me] == "1" ? remember(@user) : forget(@user)
+      redirect_back_or @user
+    else
+      flash[:warning] = t "account_not_activated"
+      redirect_to static_pages_home_path
+    end
   end
 end

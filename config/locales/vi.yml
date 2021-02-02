@@ -8,6 +8,10 @@ vi:
   please_log_in: "Xin vui lòng đăng nh."
   user_not_found: "Không tìm thấy user này!"
   email_not_found: "Không tìm thấy email này!"
+  account_not_activated: "Tài khoản này chưa xác thực.Vui lòng kiểm tra liên kết xác thực trong email!"
+  account_activated: "Tài khoản đã được kích hoạt!"
+  invalid_activation_link: "Liên kết kích hoạt không hợp lệ!"
+  check_email_activate: "Kiểm tra email của bạn để kích hoạt tài khoản của bạn!"
   invalid_email_password: "Thông tin đăng nhập không chính xác"
   only_admin_can_delete_user: "Chỉ admin mới có thể xóa người dùng!"
   layouts:
@@ -66,10 +70,11 @@ vi:
       signup_link_new_user: "Chưa có tài khoản? %{href}!"
       signup_link: "Đăng ký ngay"
       remember_me: "Ghi nhớ tài khoản trên thiết bị này"
-  will_paginate:
-    previous_label: "Trang trước"
-    next_label: "Trang sau"
-    page_gap: "…"
+  user_mailer:
+    sample_app: "Ứng dụng mẫu!"
+    Hi_name: "Xin chảo  %{Username},"
+    click_link_to_activate: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
+    activate: "Link kích hoạt"
   views:
     pagination:
       first: "&laquo; Trang đầu"

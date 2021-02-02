@@ -8,6 +8,10 @@ en:
   please_log_in: "Please log in."
   user_not_found: "User not found!"
   email_not_found: "Email not found!"
+  account_not_activated: "Account not activated. Check your email for the activation link!"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link!"
+  check_email_activate: "Please check your email to activate your account!"
   invalid_email_password: "invalid email password combination"
   only_admin_can_delete_user: "Only admin can delete user!"
   layouts:
@@ -66,10 +70,11 @@ en:
       signup_link_new_user: "New User? %{href}!"
       signup_link: "Sign Up Now"
       remember_me: "Remember me on this computer"
-  will_paginate:
-    previous_label: "Previous"
-    next_label: "Next"
-    page_gap: "…"
+  user_mailer:
+    sample_app: "Sample App"
+    Hi_name: "Hi  %{Username},"
+    click_link_to_activate: "Welcome to the Sample App! Click on the link below to activate your account:"
+    activate: "Activate"
   views:
     pagination:
       first: "&laquo; First"

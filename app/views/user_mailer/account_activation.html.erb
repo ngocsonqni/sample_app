@@ -1,0 +1,6 @@
+<h1><%= t("user_mailer.sample_app")%></h1>
+<p><%= t("user_mailer.Hi_name", :Username => @user.name)%></p>
+<p>
+  <%= t("user_mailer.click_link_to_activate") %>
+</p>
+<%= link_to t("user_mailer.activate"), edit_account_activation_url(@user.activation_token, email: @user.email) %>
