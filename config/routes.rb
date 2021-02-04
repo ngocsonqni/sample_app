@@ -2,12 +2,13 @@
 
 Rails.application.routes.draw do
   scope "(:locale)", locale: /en|vi/ do
-    resources :users, except: %i(new create)
+    resources :users
     get "static_pages/home"
     get "static_pages/help"
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
     get "sessions/new"
+    post "sessions/new", to: "sessions#create"
     get "sessions/create"
     get "sessions/destroy"
     get "/login", to: "sessions#new"

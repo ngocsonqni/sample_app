@@ -1,9 +1,15 @@
 vi:
   title_base: "Ứng dụng mẫu Ruby on Rails Tutorial"
   welcome_to_the_sample_app: "Chào mừng bạn đến với sample app!"
+  profile_updated: "Hồ sơ đã được cập nhật"
+  profile_update_false: "Hồ sơ cập nhật thất bại!"
+  user_deleted: "Đã xóa tài khoản"
+  delete_fail: "Xóa tài khoản thất bại!"
+  please_log_in: "Xin vui lòng đăng nh."
   user_not_found: "Không tìm thấy user này!"
   email_not_found: "Không tìm thấy email này!"
   invalid_email_password: "Thông tin đăng nhập không chính xác"
+  only_admin_can_delete_user: "Chỉ admin mới có thể xóa người dùng!"
   layouts:
     header:
       english: "Tiếng Anh"
@@ -11,6 +17,7 @@ vi:
       home_nav: "Trang chủ"
       help_nav: "Trợ giúp"
       login_nav: "Đăng nhập"
+      users: "Danh sách người dùng"
       profile: "Tài khoản"
       setting: "Cài đặt"
       log_in: "Đăng nhập"
@@ -33,13 +40,24 @@ vi:
     error_messages:
       count_error: "Biểu mẫu này đang có %{count} lỗi."
   users:
-    new:
-      sign_up: "Đăng ký"
+    form:
       name: "Tên đăng nhập"
       email: "Email"
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
+    new:
+      sign_up: "Đăng ký"
       create_my_account: "Tạo tài khoản"
+    user:
+      delete: "Xóa"
+      you_sure: "Bạn chắc chứ?"
+    index:
+      all_users: "Danh sách tài khoản"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      save_change: "Lưu các thay đổi"
+      update_your_profile: "Cập nhật hồ sơ người dùng"
+      change: "Thay đổi"
   sessions:
     new:
       log_in: "Đăng nhập"
@@ -48,3 +66,14 @@ vi:
       signup_link_new_user: "Chưa có tài khoản? %{href}!"
       signup_link: "Đăng ký ngay"
       remember_me: "Ghi nhớ tài khoản trên thiết bị này"
+  will_paginate:
+    previous_label: "Trang trước"
+    next_label: "Trang sau"
+    page_gap: "…"
+  views:
+    pagination:
+      first: "&laquo; Trang đầu"
+      last: Trang cuối &raquo;
+      next: Sau &rsaquo;
+      previous: "&lsaquo; Trước"
+      truncate: "&hellip;"
