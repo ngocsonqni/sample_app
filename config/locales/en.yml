@@ -1,9 +1,15 @@
 en:
   title_base: "Ruby on Rails Tutorial Sample App"
   welcome_to_the_sample_app: "Welcome to the sample app!"
+  profile_updated: "Profile updated"
+  profile_update_false: "Profile update false!"
+  user_deleted: "User deleted"
+  delete_fail: "Delete fail!"
+  please_log_in: "Please log in."
   user_not_found: "User not found!"
   email_not_found: "Email not found!"
   invalid_email_password: "invalid email password combination"
+  only_admin_can_delete_user: "Only admin can delete user!"
   layouts:
     header:
       english: "English"
@@ -11,6 +17,7 @@ en:
       home_nav: "Home"
       help_nav: "Help"
       login_nav: "Log in"
+      users: "Users"
       profile: "Profile"
       setting: "Setting"
       log_in: "Log in"
@@ -33,13 +40,24 @@ en:
     error_messages:
       count_error: "The Form Contains %{count} errors."
   users:
-    new:
-      sign_up: "Sign up"
+    form:
       name: "Name"
       email: "Email"
       password: "Password"
       confirmation: "Confirmation"
+    new:
+      sign_up: "Sign up"
       create_my_account: "Create my account"
+    user:
+      delete: "delete"
+      you_sure: "You sure?"
+    index:
+      all_users: "All users"
+    edit:
+      edit_user: "Edit user"
+      save_change: "Save changes"
+      update_your_profile: "Update your profile"
+      change: "change"
   sessions:
     new:
       log_in: "Log in"
@@ -48,3 +66,15 @@ en:
       signup_link_new_user: "New User? %{href}!"
       signup_link: "Sign Up Now"
       remember_me: "Remember me on this computer"
+  will_paginate:
+    previous_label: "Previous"
+    next_label: "Next"
+    page_gap: "…"
+  views:
+    pagination:
+      first: "&laquo; First"
+      last: Last &raquo;
+      next: Next &rsaquo;
+      previous: "&lsaquo; Prev"
+      truncate: "&hellip;"
+

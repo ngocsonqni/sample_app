@@ -1,2 +1,5 @@
 user:
   max_length: 500
+  min_length_password: 6
+paginate:
+  per_page: 5
