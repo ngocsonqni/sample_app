@@ -11,6 +11,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-will_paginate", "1.0.0"
 gem "config"
 gem "faker", "1.7.3"
+gem "figaro"
 gem "jbuilder", "~> 2.7"
 gem "kaminari"
 gem "kaminari-i18n", "~> 0.5.0"
