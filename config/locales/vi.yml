@@ -14,6 +14,11 @@ vi:
   check_email_activate: "Kiểm tra email của bạn để kích hoạt tài khoản của bạn!"
   invalid_email_password: "Thông tin đăng nhập không chính xác"
   only_admin_can_delete_user: "Chỉ admin mới có thể xóa người dùng!"
+  email_with_pass_reset_instructions: "Hướng dẫn đặt lại mật khẩu đã được gửi vào email"
+  please_enter_password: "Vui lòng nhập mật khẩu mới!"
+  password_updated: "Mật khẩu được cập nhật!"
+  account_activation: "Kích hoạt tài khoản"
+  password_reset: "Đặt lại mật khẩu"
   layouts:
     header:
       english: "Tiếng Anh"
@@ -67,6 +72,7 @@ vi:
       log_in: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
+      forgot_password: "(Quên mật khẩu)"
       signup_link_new_user: "Chưa có tài khoản? %{href}!"
       signup_link: "Đăng ký ngay"
       remember_me: "Ghi nhớ tài khoản trên thiết bị này"
@@ -75,6 +81,20 @@ vi:
     Hi_name: "Xin chảo  %{Username},"
     click_link_to_activate: "Chào mừng bạn đến với Ứng dụng Mẫu! Nhấp vào liên kết bên dưới để kích hoạt tài khoản của bạn:"
     activate: "Link kích hoạt"
+    password_reset: "Đặt lại mật khẩu"
+    to_reset_your_password_click_the_link_below: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+    this_link_will_expire_in_two_hours: "Liên kết này sẽ hết hạn sau hai giờ."
+    if_you_did_not_request_your_password_to_be_reset: "Nếu bạn không yêu cầu đặt lại mật khẩu của mình, vui lòng bỏ qua email này và mật khẩu của bạn sẽ vẫn như cũ."
+  password_resets:
+    new:
+      forgot_password: "Quên mật khẩu"
+      email: "Địa chỉ email"
+      submit: "Xác nhận"
+    edit:
+      reset_password: "Reset password"
+      password: "password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
   views:
     pagination:
       first: "&laquo; Trang đầu"

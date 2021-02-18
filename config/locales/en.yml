@@ -14,6 +14,11 @@ en:
   check_email_activate: "Please check your email to activate your account!"
   invalid_email_password: "invalid email password combination"
   only_admin_can_delete_user: "Only admin can delete user!"
+  email_with_pass_reset_instructions: "Email sent with password reset instructions"
+  please_enter_password: "Please enter new password!"
+  password_updated: "Password updated!"
+  account_activation: "Account activation"
+  password_reset: "Password reset"
   layouts:
     header:
       english: "English"
@@ -67,6 +72,7 @@ en:
       log_in: "Log in"
       email: "Email"
       password: "Password"
+      forgot_password: "(forgot password)"
       signup_link_new_user: "New User? %{href}!"
       signup_link: "Sign Up Now"
       remember_me: "Remember me on this computer"
@@ -75,6 +81,20 @@ en:
     Hi_name: "Hi  %{Username},"
     click_link_to_activate: "Welcome to the Sample App! Click on the link below to activate your account:"
     activate: "Activate"
+    password_reset: "Password reset"
+    to_reset_your_password_click_the_link_below: "To reset your password click the link below:"
+    this_link_will_expire_in_two_hours: "This link will expire in two hours."
+    if_you_did_not_request_your_password_to_be_reset: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  password_resets:
+    new:
+      forgot_password: "Forgot password"
+      email: "email"
+      submit: "submit"
+    edit:
+      reset_password: "Reset password"
+      password: "password"
+      confirmation: "Confirmation"
+      update_password: "Update password"
   views:
     pagination:
       first: "&laquo; First"
